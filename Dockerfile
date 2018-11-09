@@ -11,4 +11,4 @@ ENV NODE_ENV development
 
 EXPOSE 3000 80
 
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
