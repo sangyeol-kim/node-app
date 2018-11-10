@@ -9,6 +9,6 @@ RUN npm install
 
 ENV NODE_ENV development
 
-EXPOSE 3000 80
+EXPOSE 4567
 
 CMD ["node", "app.js"]
