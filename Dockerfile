@@ -16,4 +16,4 @@ ENV NODE_ENV development
 
 EXPOSE 4567
 
-CMD [ "npm", "start" ]
+CMD [ "node", "app.js" ]
