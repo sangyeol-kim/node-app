@@ -1,8 +1,6 @@
 FROM node:8
 
-MAINTAINER kim
-
-RUN mkdir -p /usr/src/app
+MAINTAINER yorr / github: https://github.com/sangyeol-kim/docker_node_test
 
 WORKDIR /usr/src/app
 
@@ -16,4 +14,4 @@ ENV NODE_ENV development
 
 EXPOSE 4567
 
-CMD [ "npm", "start" ]
+CMD [ "node", "app.js" ]
