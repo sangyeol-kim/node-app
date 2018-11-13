@@ -14,6 +14,6 @@ COPY . .
 
 ENV NODE_ENV development
 
-EXPOSE 4567
+EXPOSE 3000
 
 CMD [ "node", "app.js" ]
