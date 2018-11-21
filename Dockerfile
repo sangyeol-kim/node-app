@@ -1,18 +1,14 @@
 FROM node:8
 
-MAINTAINER kim
+MAINTAINER sangyeol-kim
 
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
-RUN npm install
-
 COPY . .
 
-ENV NODE_ENV development
+RUN npm install
 
 EXPOSE 3000
 
